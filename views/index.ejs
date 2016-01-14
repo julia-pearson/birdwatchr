@@ -8,6 +8,19 @@
 <body>
   <h1>Birds of NY</h1>
   <a href="/sightings/new">Spotted a bird?</a>
+  <h1>3 most recent bird sightings</h1>
+  <%for(var i=0; i<sightings.length ; i++){%>
+    <h2>location: </h2>
+    <p><%=sightings[i].location.street%></p>
+    <p><%=sightings[i].location.city%>, <%=sightings[i].location.state%> <%=sightings[i].location.zip%></p>
+    <p>Lat: <%=sightings[i].location.lat%>, long: <%=sightings[i].location.lng%></p>
+    <p>last seen: <%=sightings[i].date%></p>
+    <h2>name: <%=sightings[i].bird.name%></h2>
+    <p>underbelly: <%=sightings[i].bird.underbelly%></p>
+    <p>song: <%=sightings[i].bird.song%></p>
+    <p>claw strength: <%=sightings[i].bird.clawstrength%></p>
+    <p>julia scared?: <%=sightings[i].bird.juliascared%></p>
+  <%}%>
 </body>
 </html>
 

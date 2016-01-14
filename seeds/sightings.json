@@ -1,0 +1,67 @@
+[
+  {
+    "location": {
+      "street": "242 9th st",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip": "11215"
+    },
+    "bird": {
+      "name": "Kea",
+      "underbelly": "red",
+      "song": "very good",
+      "clawstrength": "extra strong",
+      "juliascared": "true",
+      "location": "On Julia's car"
+    },
+    "date": "2011-05-10"
+  },
+  {
+    "location": {
+        "street": "46 West 83rd St",
+        "city": "NY",
+        "state": "New York",
+        "zip": "10024"
+    },
+    "bird": {
+      "name": "Dove",
+      "underbelly": "beige",
+      "song": "tweet tweet tweeet twet",
+      "clawstrength": "medium to weak",
+      "juliascared": "true"
+    },
+    "date": "2012-11-10"
+  },
+  {
+    "location": {
+        "street": "223 Dewitt Brown rb",
+        "city": "East Chatham",
+        "state": "NY",
+        "zip": "12060"
+    },
+    "bird": {
+      "name": "Owl",
+      "underbelly": "Snow Wite",
+      "song": "HOOOOOOOOOT",
+      "clawstrength": "fierce",
+      "juliascared": "true"
+    },
+    "date": "2013-01-10"
+  },
+  {
+   "location": {
+       "street": "48 West 83rd St",
+       "city": "Queens",
+       "state": "NY",
+       "zip": "10028"
+   },
+   "bird": {
+     "name": "Squab",
+     "underbelly": "white",
+     "song": "tweet tweet tweeet twert",
+     "clawstrength": "medium to strong",
+     "juliascared": "true"
+   },
+   "date": "2014-11-10"
+  }
+]

@@ -8,7 +8,18 @@
 <body>
   <h1>Spotted a bird?</h1>
   <form method="POST" action="/sightings">
-    <input type="text" name="sighting[bird]">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="underbelly" placeholder="underbelly">
+    <input type="text" name="song" placeholder="song">
+    <input type="text" name="clawstrength" placeholder="clawstrength">
+    <input type="text" name="juliascared" placeholder="juliascared">
+    <p>Location of Sighting</p>
+    <input type="text" name="street" placeholder="street">
+    <input type="text" name="city" placeholder="city">
+    <input type="text" name="state" placeholder="state">
+    <input type="text" name="zip" placeholder="zip">
+    <p>Date of Sighting</p>
+    <input type="text" name="date" placeholder="yyyy-mm-dd">
     <input type="submit" value="Create">
   </form>
 </body>
